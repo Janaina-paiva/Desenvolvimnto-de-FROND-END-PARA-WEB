@@ -1,0 +1,141 @@
+h1 {
+    text-align: center; /* Centraliza o texto */
+    color: rgb(10, 1, 8);       /* Define a cor do texto para azul */
+  }
+body {
+    background-color: rgb(255, 251, 251); /* Define a cor de fundo da página */
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o texto */
+    margin: 0; /* Remove margens padrão do navegador */
+    padding: 0; /* Remove espaçamento padrão do navegador */
+    
+  }
+  
+  header {
+    background-color: rgb(0, 0, 0); /* Cor de fundo do cabeçalho */
+    color: rgb(1, 0, 1); /* Cor do texto no cabeçalho */
+    padding: 10px 0; /* Espaçamento interno do cabeçalho */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+    font-size: 30px; /* Tamanho da fonte do cabeçalho */
+    font-weight: bold; /* Deixa o texto do cabeçalho em negrito */
+
+  }
+ 
+  nav ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove espaçamento interno da lista */
+    margin: 0; /* Remove margens da lista */
+    display: flex; /* Usa flexbox para layout horizontal */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    background-color: rgb(250, 166, 236); /* Cor de fundo da barra de navegação */
+  }
+
+ 
+  nav ul li {
+    margin: 0 20px; /* Espaçamento entre os itens da lista */
+  }
+  
+  nav ul li a {
+    color: rgb(10, 0, 0); /* Cor dos links na barra de navegação */
+    text-decoration: none; /* Remove sublinhado dos links */
+    font-weight: bold; /* Deixa o texto em negrito */
+    font-size: 18px; /* Tamanho da fonte dos links */
+    padding: 14px 20px; /* Espaçamento interno dos links */
+    display: block; /* Faz os links ocuparem todo o espaço do item da lista */
+    transition: background-color 0.
+3s; /* Adiciona uma transição suave para a mudança de cor de fundo */
+
+  }
+
+  h2 {
+    color: rgb(10, 1, 8); /* Define a cor do texto para azul */
+    text-align: center; /* Centraliza o texto */
+      margin-top: 40px; /* Espaçamento acima do título */
+      font-size: 50px; /* Tamanho da fonte do título */
+  }
+  
+  nav ul li a:hover {
+      text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link */
+    }
+  
+  section {
+    padding: 20px; /* Espaçamento interno das seções */
+  }
+
+
+  
+  footer {
+    background-color: rgb(252, 156, 233); /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto no rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 10px 0; /* Espaçamento interno do rodapé */
+    width: 100%; /* Faz o rodapé ocupar toda a largura da página */
+    /* Posiciona o rodapé na parte inferior */
+    bottom: 0;
+  }
+
+
+.galeria-de-imagens {
+  display: flex; /* Alinha os elementos em linha */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+.galeria-de-imagens {
+  display: flex; /* Alinha os elementos em linha */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+
+}
+
+h3 {
+    color: rgb(10, 1, 8); /* Define a cor do texto para azul */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 100px; /* Espaçamento acima do título */
+    font-size: 50px; /* Este texto terá uma fonte maior */
+}
+
+.h3galeria-de-imagens {
+  display: flex; /* Alinha os elementos em linha */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+
+}
+
+.h4galeria-de-imagens {
+  display: flex; /* Alinha os elementos em linha */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+
+}
+
+h4 {
+    color: rgb(10, 1, 8); /* Define a cor do texto para azul */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 100px; /* Espaçamento acima do título */
+    font-size: 50px; /* Este texto terá uma fonte maior */
+}
+
+h5{
+    color: rgb(10, 1, 8); /* Define a cor do texto para azul */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 100px; /* Espaçamento acima do título */
+    font-size: 50px; /* Este texto terá uma fonte maior */
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  /* Altura do contêiner para a centralização vertical */
+  height: 100vh;
+}
+
+p{
+    color: rgb(10, 1, 8); /* Define a cor do texto para azul */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 100px; /* Espaçamento acima do título */
+    font-size: 30px; /* Este texto terá uma fonte maior */
+    font-weight: bold;
+}
+
+
